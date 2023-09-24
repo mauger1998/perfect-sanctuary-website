@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+button {
+  padding: 0.75rem 2rem;
+  border: 2px solid black;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+header .wrapper {
+  width: 100%;
+  max-width: 1440px;
+  padding: 1rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .wrapper nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+  gap: 2rem;
+}
+header .wrapper nav ul a {
+  text-decoration: none;
+  color: black;
+}
+header .wrapper nav ul a li {
+  color: white;
+}
+
+main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3294117647), rgba(0, 0, 0, 0.3294117647)), url(../.././static/home-hero-perfect-sanctuary.png);
+  background-size: cover;
+}
+main .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 12rem !important;
+}
+main .wrapper h1 {
+  line-height: 1;
+  text-align: center;
+  max-width: 20ch;
+  color: white;
+  font-size: 5rem;
+  font-weight: 300;
+}
+main .wrapper p:not(.tagline) {
+  margin-block: 2rem;
+  color: white;
+  text-align: center;
+  font-family: "Poppins";
+}
+main .wrapper p.tagline {
+  color: gold;
+  font-size: 16px;
+  margin-block-end: 0.5rem;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: black;
+  font-family: "Libre Baskerville", serif;
+  font-size: 4rem;
+}
+
+main,
+section,
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .wrapper,
+section .wrapper,
+footer .wrapper {
+  width: 100%;
+  max-width: 1440px;
+  padding: 4rem 4rem;
+}/*# sourceMappingURL=style.css.map */
